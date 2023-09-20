@@ -7,10 +7,10 @@ public class NumerosAleatorios {
         // Crear un objeto Random
         Random random = new Random();
 
-        // Generar y mostrar 5 números aleatorios entre 0 y 100
-        System.out.println("Números aleatorios entre 0 y 100:");
-        for (int i = 0; i < 5; i++) {
-            int numeroAleatorio = random.nextInt(101); // Genera números entre 0 (inclusive) y 101 (exclusivo)
+        // Generar y mostrar 5 nÃºmeros aleatorios entre 0 y 100
+        System.out.println("NÃºmeros aleatorios entre 0 y 100:");
+        for (int i = 0; i < 6; i++) {
+            int numeroAleatorio = random.nextInt(101); // Genera nÃºmeros entre 0 (inclusive) y 101 (exclusivo)
             System.out.println(numeroAleatorio);
         }
     }
